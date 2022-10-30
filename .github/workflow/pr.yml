@@ -1,0 +1,7 @@
+name: "teste"
+on: [push]
+
+jobs:
+  testando:
+    secrets: inherit
+    uses: EmilyADS/sfdx-actions-test/.github/workflows/create_version.yml@main
